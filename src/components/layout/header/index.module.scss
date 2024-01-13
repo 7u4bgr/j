@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Header arka plan rengi */
+  z-index: 1000; 
+ 
+
+
+/* İsteğe bağlı: Header içerikleri için stil */
+
+
+  .control {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    .aboutus {
+      display: none;
+    }
+    button{
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      svg{
+        background-color: transparent;
+      }
+    }
+  }
+  .menu {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: black;
+    display: none;
+    &.open {
+      opacity: 1;
+      color: white;
+      display: flex;
+    
+      flex-direction: column;
+      gap: 10px;
+     
+      border-radius: 10px;
+      position: absolute;
+      width: 90%;
+      left: 50%;
+      top: 70px;
+      transform: translateX(-50%);
+      
+      a {
+        display: flex;
+        justify-content: center;
+        padding: 12px 22px;
+        text-decoration: none;
+        color: var(--Primary-gray-scale, #ffffff);
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        
+      }
+      .a1 {
+        display: flex;
+        padding: 12px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        color: black;
+        border: 2px solid var(--Primary-gray-scale, #000000);
+        background: var(--White-Color, #ffffff);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+  .overlay{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    opacity: 50%;
+  }
+  
+  
+  
+  
+  
+  
+}
+@media (min-width: 992px) {
+  .background {
+    .control {
+      padding-top: 29px;
+      padding-bottom: 30px;
+      .aboutus {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        a {
+          padding: 12px 22px;
+          text-decoration: none;
+          color: var(--Primary-gray-scale, #000000);
+          font-family: "Inter", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        .a1 {
+          display: flex;
+          padding: 12px 22px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border: 2px solid var(--Primary-gray-scale, #000);
+          background: var(--White-Color, #ffffff);
+        }
+      }
+      button{
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  margin-top: 70px;
+  padding-bottom: 50px;
+  background-color: black;
+  .control {
+    .images {
+      img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .flextext {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .about {
+        p {
+          color: var(--White-Color, #fff);
+          font-family: "Inter", sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 46.5px; /* 193.75% */
+          text-transform: capitalize;
+        }
+        h2 {
+          color: var(--white, #fff);
+          font-family: "Poppins", sans-serif;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 45px; /* 173.611% */
+          text-transform: capitalize;
+          h3 {
+            color: var(--Gray-100, #c4c4c4);
+            font-family: "Poppins", sans-serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 45px;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .ptext {
+        p {
+          color: var(--Par-Color, #7c7c7c);
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 35px; /* 210% */
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .background {
+    .control {
+      padding-top: 117px;
+      padding-bottom: 67px;
+      display: flex;
+      justify-content: center;
+    
+      margin: auto;
+      gap: 60px;
+      .flextext{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        .about{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h2{
+            font-size: 42px;
+
+            }
+            p{
+            font-size: 30px;
+
+            }
+        }
+        .ptext{
+            width: 600px;
+            p{
+                font-size: 22px;
+            }
+        }
+      }
+    }
+  }
+}
