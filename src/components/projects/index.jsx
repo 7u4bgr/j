@@ -37,7 +37,7 @@ const Projects = () => {
     },
   ]);
   return (
-    <div className={styles.background}>
+    <div id="projects" className={styles.background}>
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.textcomponent}>

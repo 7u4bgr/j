@@ -4,7 +4,7 @@ import Wrapper from "../UI/wrapper";
 import { Link } from "react-router-dom";
 const Background = () => {
   return (
-    <div className={styles.background}>
+    <div id="home" className={styles.background}>
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.h2text}>

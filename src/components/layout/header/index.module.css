@@ -24,6 +24,7 @@
 }
 .background .control .aboutus {
   display: none;
+  cursor: pointer;
 }
 .background .control button {
   border: none;
@@ -53,6 +54,7 @@
   transform: translateX(-50%);
 }
 .background .menu.open a {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   padding: 12px 22px;

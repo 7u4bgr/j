@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const FindMe = () => {
 
   return (
-    <div className={styles.background}>
+    <div id="find" className={styles.background}>
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.textcomponent}>

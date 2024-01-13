@@ -4,12 +4,12 @@ import Wrapper from "../UI/wrapper";
 import { Link } from "react-router-dom";
 const ContactMe = () => {
   return (
-    <div className={styles.background}>
+    <div id="contact" className={styles.background}>
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.textcomponent}>
             <p>Contact Me</p>
-            <h2>I’m Up and Running, Let’s Chat!</h2>
+            <h2>Let’s Chat!</h2>
           </div>
           <div className={styles.links}>
             <a href="mailto:fatima.bashirli02@gmail.com">E-mail</a>

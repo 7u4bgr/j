@@ -28,6 +28,7 @@
 
     .aboutus {
       display: none;
+      cursor: pointer;
     }
     button{
       border: none;
@@ -59,6 +60,7 @@
       transform: translateX(-50%);
       
       a {
+        cursor: pointer;
         display: flex;
         justify-content: center;
         padding: 12px 22px;

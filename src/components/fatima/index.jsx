@@ -4,7 +4,7 @@ import Wrapper from "../UI/wrapper";
 import Fatima1 from "../../assets/images/fatima.png";
 const Fatima = () => {
   return (
-    <div className={styles.background}>
+    <div id="about" className={styles.background}>
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.images}>
