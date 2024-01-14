@@ -55,6 +55,11 @@
         line-height: 19px; /* 118.75% */
         text-transform: capitalize;
       }
+      .button1:hover {
+        color: var(--Primary-gray-scale, #ffffff);
+        background: var(--Seconday, #000000);
+        transition: 1s;
+      }
       .button2 {
         border: 1px solid var(--Primary-gray-scale, #000);
         background: var(--Primary-gray-scale, #000);
@@ -70,6 +75,12 @@
         font-weight: 500;
         line-height: 19px; /* 118.75% */
         text-transform: capitalize;
+      }
+      .button2:hover{
+         color: var(--Primary-gray-scale, #000000);
+           background: var(--Seconday, #dcdcdc);
+
+        transition: 1s;
       }
     }
   }
@@ -109,11 +120,11 @@
         justify-content: center;
         align-items: center;
         gap: 18px;
-        .button1{
-            width: 15%;
+        .button1 {
+          width: 15%;
         }
-        .button2{
-            width: 15%;
+        .button2 {
+          width: 15%;
         }
       }
     }

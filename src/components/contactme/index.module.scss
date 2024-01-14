@@ -58,6 +58,11 @@
         line-height: 80px; /* 400% */
         text-transform: capitalize;
       }
+      a:hover{
+        color: var(--Primary-gray-scale, #ffffff);
+        background: var(--White-Color, #000000);
+        transition: 1s;
+      }
     }
   }
 }

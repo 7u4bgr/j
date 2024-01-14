@@ -111,6 +111,12 @@
     line-height: normal;
     text-transform: capitalize;
   }
+  .background .control .aboutus a:hover {
+    gap: 10px;
+    transition: 1s;
+    color: white;
+    background: var(--White-Color, rgb(54, 54, 54));
+  }
   .background .control .aboutus .a1 {
     display: flex;
     padding: 12px 22px;

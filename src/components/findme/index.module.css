@@ -46,6 +46,12 @@
   text-decoration-line: underline;
   text-transform: capitalize;
 }
+.background .control .links a:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  padding: 10px;
+}
 
 @media (min-width: 992px) {
   .background .control .textcomponent p {

@@ -53,6 +53,11 @@
   line-height: 19px; /* 118.75% */
   text-transform: capitalize;
 }
+.background .control .buttons .button1:hover {
+  color: var(--Primary-gray-scale, #ffffff);
+  background: var(--Seconday, #000000);
+  transition: 1s;
+}
 .background .control .buttons .button2 {
   border: 1px solid var(--Primary-gray-scale, #000);
   background: var(--Primary-gray-scale, #000);
@@ -66,6 +71,11 @@
   font-weight: 500;
   line-height: 19px; /* 118.75% */
   text-transform: capitalize;
+}
+.background .control .buttons .button2:hover {
+  color: var(--Primary-gray-scale, #000000);
+  background: var(--Seconday, #dcdcdc);
+  transition: 1s;
 }
 
 @media (min-width: 992px) {

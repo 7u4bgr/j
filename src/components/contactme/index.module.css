@@ -59,6 +59,11 @@
   line-height: 80px; /* 400% */
   text-transform: capitalize;
 }
+.background .control .links a:hover {
+  color: var(--Primary-gray-scale, #ffffff);
+  background: var(--White-Color, #000000);
+  transition: 1s;
+}
 
 @media (min-width: 992px) {
   .background .control .textcomponent p {

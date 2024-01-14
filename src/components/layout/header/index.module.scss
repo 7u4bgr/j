@@ -124,6 +124,14 @@
           font-weight: 500;
           line-height: normal;
           text-transform: capitalize;
+
+        }
+        a:hover{
+     
+          gap: 10px;
+            transition: 1s;
+          color: white;
+          background: var(--White-Color, rgb(54, 54, 54));
         }
         .a1 {
           display: flex;
