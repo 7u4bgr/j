@@ -19,10 +19,10 @@ const Fatima = () => {
             </div>
             <div className={styles.ptext}>
               <p>
-                I'm fatima Bashirli, a UI/UX Designer. I bring ideas to life
-                through design, from captivating landing pages to user-friendly
-                apps and dashboards. Let's create something extraordinary
-                together.
+                I'm Fatima Bashirli, a UI/UX Designer. I Bring Ideas To Life
+                Through Design, From Captivating Landing Pages To User-Friendly
+                Apps and Dashboards. Let's Create Something Extraordinary
+                Together.
               </p>
             </div>
           </div>
