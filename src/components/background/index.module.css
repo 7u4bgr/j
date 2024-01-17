@@ -6,12 +6,12 @@
 
 .background {
   padding-top: 40px;
-  background: var(--Gray-50, #f3f3f3);
+  background: #F9FFFF;
   padding-bottom: 70px;
 }
 .background .control {
   padding-top: 87px;
-  background: var(--Gray-50, #f3f3f3);
+  background: #F9FFFF;
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -83,11 +83,11 @@
 
 @media (min-width: 992px) {
   .background {
-    background: var(--Gray-50, #f3f3f3);
+    background: #F9FFFF;
     padding-top: 120px;
   }
   .background .control {
-    background: var(--Gray-50, #f3f3f3);
+    background: #F9FFFF;
   }
   .background .control .h2text {
     display: flex;

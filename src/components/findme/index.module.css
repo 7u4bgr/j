@@ -5,7 +5,7 @@
 }
 
 .background {
-  background: var(--Gray-50, #f3f3f3);
+  background: #F9FFFF;
 }
 .background .control {
   padding-top: 50px;
