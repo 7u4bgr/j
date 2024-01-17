@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +9,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff; /* Header arka plan rengi */
+  background-color: #ffffff;
   z-index: 1000;
-  /* İsteğe bağlı: Header içerikleri için stil */
 }
 .background .control {
   padding-top: 6px;

@@ -5,8 +5,13 @@
 }
 .background {
   padding-top: 40px;
+
+  background: var(--Gray-50, #f3f3f3);
+padding-bottom: 70px;
   .control {
     padding-top: 87px;
+  background: var(--Gray-50, #f3f3f3);
+
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -76,9 +81,9 @@
         line-height: 19px; /* 118.75% */
         text-transform: capitalize;
       }
-      .button2:hover{
-         color: var(--Primary-gray-scale, #000000);
-           background: var(--Seconday, #dcdcdc);
+      .button2:hover {
+        color: var(--Primary-gray-scale, #000000);
+        background: var(--Seconday, #dcdcdc);
 
         transition: 1s;
       }
@@ -87,7 +92,11 @@
 }
 @media (min-width: 992px) {
   .background {
+  background: var(--Gray-50, #f3f3f3);
+padding-top: 120px;
     .control {
+      background: var(--Gray-50, #f3f3f3);
+
       .h2text {
         display: flex;
         align-items: center;
@@ -119,6 +128,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        
         gap: 18px;
         .button1 {
           width: 15%;
