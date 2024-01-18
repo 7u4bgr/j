@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .background {
- 
+  background: var(--Gray-50, #F3F3F3);
   .control {
     padding-top: 50px;
     padding-bottom: 120px;
@@ -43,7 +43,7 @@
         color: var(--Primary-gray-scale, #000);
         text-align: center;
         font-family: "Inter", sans-serif;
-        background: var(--Gray-50, #e0e0e0);
+        background: var(--White-Color, #FFF);
 
         display: flex;
         width: 290px;

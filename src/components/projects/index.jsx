@@ -2,38 +2,38 @@ import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 import Travel from "../../assets/images/travel.png";
-import Weather from "../../assets/images/weather.png";
-import Khuran from "../../assets/images/khuran.png";
+import Azercell from "../../assets/images/azercell.png";
+import Fatima from "../../assets/images/fatimaaa.png";
 import { ArrowRightIcon } from "../../icons";
 import { Link } from "react-router-dom";
 const Projects = () => {
   const [data, setData] = useState([
     {
+      photo: `${Azercell}`,
+      name: "Azercell | Website design",
+      title: "UI/UX and Web Design",
+      overview:
+        "Azercell - Mobile Communications & Telecom Industry Leader And The Only Telecom Operator That Provides Digital Products And Solutions in Azerbaijan. Es. ",
+      view: "All View",
+      link: "https://www.behance.net/gallery/189224639/Azercell-Website-design",
+    },
+    {
+      photo: `${Fatima}`,
+      name: "Personal Portfolio",
+      title: "Website Design",
+      overview:
+        "I Am Excited To Launch My Newly Created Personal Website. An Elegant Blend Of Simple And Minimalistic Elements, I Created The Website in a Visually Captivating And Sophisticated Design That Enhances Both Its Aesthetics And Overall Appeal.",
+      view: "All View",
+      link: "https://www.behance.net/gallery/189112401/Personal-Portfolio-2024",
+    },
+    {
       photo: `${Travel}`,
       name: "Travel Mobil App",
       title: "UI/UX design",
       overview:
-        "These Apps Typically Include Features For Trip Planning, Accommodation Reservations, Flight Tracking, Itinerary Planning, Local Activities, And Restaurant Recommendations. Es.",
+        "Travel APP is a Platform Where Travelers Will Be Able To Pick The Best Package By Comparing It From Travel Packages Of Different Travel Agencies Or Travel Groups. They Can Also Customize It As Per Their Choice. The Biggest Advantage Is That The Verificat.",
       view: "All View",
       link: "https://www.behance.net/gallery/185703843/Travel-Mobiel-App-Case-Study",
-    },
-    {
-      photo: `${Weather}`,
-      name: "Weather App Design",
-      title: "UI/UX design",
-      overview:
-        "They Can Include Features Such As Location-Based Services And Access To Weather Data For Different Cities or Regions. Visual Representations Such As Graphs Depicting Weather Data Such As Temperature, Humidity, Wind Speed, And Other Relevant Information Are Commonly Used In Presenting Weather Forecasts. Es. ",
-      view: "All View",
-      link: "https://www.behance.net/gallery/186019981/Weather-Mobile-App-Design",
-    },
-    {
-      photo: `${Khuran}`,
-      name: "Quran Reading Website",
-      title: "UI/UX design",
-      overview:
-        "A Quran Reading Website Provides A Platform For Users To Read And Learn The Quran Online. It Typically Includes Various Features Such As Different Translations, Interpretations (Tafsirs), And Audio Recitations Of The Quran. Es.",
-      view: "All View",
-      link: "https://www.behance.net/gallery/183134979/Quran-Reading-Landing-Page",
     },
   ]);
   return (
