@@ -10,7 +10,7 @@ const Projects = () => {
   const [data, setData] = useState([
     {
       photo: `${Azercell}`,
-      name: "Azercell | Website design",
+      name: "Azercell Design",
       title: "UI/UX and Web Design",
       overview:
         "Azercell - Mobile Communications & Telecom Industry Leader And The Only Telecom Operator That Provides Digital Products And Solutions in Azerbaijan. Es. ",
